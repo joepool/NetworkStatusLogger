@@ -13,7 +13,7 @@ Your Raspberry Pi will reboot and the script will then always be running in the 
 The setup will fail if it is not run with sudo.  
 #### Other
 Change the `networkstatuslog.txt` save location on line two of `NetworkStatusLogger.sh`  
-Then NetworkStatusLogger.sh script can simply be run:  
+Then `NetworkStatusLogger.sh` script can simply be run:  
 `./NetworkStatusLogger.sh`  
 #### Issues
 If any shell scripts cannot be run you may need to add execute permissions:  
