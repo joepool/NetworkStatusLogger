@@ -3,8 +3,7 @@ Description=NetworkStatusLogger
 After=network.target
 
 [Service]
-ExecStart=/NetworkStatusLogger.sh
-WorkingDirectory=/home/pi/NetworkStatusLogger
+ExecStart=/home/pi/NetworkStatusLogger/NetworkStatusLogger.sh
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
