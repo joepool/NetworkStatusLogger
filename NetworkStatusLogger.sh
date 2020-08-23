@@ -12,5 +12,5 @@ do
 		echo $output >> $dir
 		echo Network Down
 	fi
-	sleep 20
+	sleep 30
 done
