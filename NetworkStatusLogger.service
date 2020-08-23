@@ -1,0 +1,14 @@
+[Unit]
+Description=NetworkStatusLogger
+After=network.target
+
+[Service]
+ExecStart=/NetworkStatusLogger.sh
+WorkingDirectory=/home/pi/NetworkStatusLogger
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
