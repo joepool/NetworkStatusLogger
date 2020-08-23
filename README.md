@@ -9,7 +9,7 @@ Clone this Repository:
 If your user is not pi (or you would like to change the `networkstatuslog.txt` save location) edit line two of `NetworkStatusLogger.sh`  
 Run the setup shell script:  
 `sudo ./setup.sh`  
-Your Raspberry Pi will reboot and the script will then always be running in the background. 
+Your Raspberry Pi will reboot and the script will then always be running in the background.  
 The setup will fail if it is not run with sudo.  
 #### Other
 Change the `networkstatuslog.txt` save location on line two of `NetworkStatusLogger.sh`  
