@@ -1,6 +1,6 @@
 #!/bin/bash
 dir=("/home/pi/networkstatuslog.txt")
-down=("- Netowork is Down")
+down=("- Network is Down")
 while :
 do
 	now=$(date)
