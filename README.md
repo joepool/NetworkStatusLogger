@@ -23,7 +23,7 @@ Then `NetworkStatusLogger.sh` script can simply be run:
 #### Issues
 If any shell scripts cannot be run you may need to add execute permissions:  
 `sudo chmod +x setup.sh`  
-`sudo chmod +x setup_inc_web.sh`
+`sudo chmod +x setup_inc_web.sh`   
 `sudo chmod +x NetworkStatusLogger.sh`   
 If you encounter any other problems, open a github issue.
 ## How it works
