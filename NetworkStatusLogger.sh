@@ -1,6 +1,5 @@
 #!/bin/bash
 dir=("/home/pi/networkstatuslog.txt")
-down=("- Netowork is Down")
 while :
 do
 	now=$(date)
@@ -8,8 +7,8 @@ do
 	ping=$?
 	if [ "$ping" -eq "2" ]
 	then
-		output="${now} ${down}"
-		echo $output >> $dir
+		output="${now} - Network is Down"
+		echo "$output" >> "$dir"
 		echo Network Down
 	fi
 	sleep 30

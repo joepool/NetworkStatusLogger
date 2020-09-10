@@ -13,8 +13,8 @@ h2 {
   font-size: 16px;
 }
 .data {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 </style>
 <html>
