@@ -28,7 +28,7 @@ If any shell scripts cannot be run you may need to add execute permissions:
 `sudo chmod +x NetworkStatusLogger.sh`   
 If you encounter any other problems, open a github issue.
 ## How it works
-Every 30 seconds `8.8.8.8` (google) is pinged.  
-If the ping failes then the date and time and a message is appended to the text file `networkstatuslog.txt`  
+Every 30 seconds a HTTP request is sent to google.   
+If the there is no response within 5 seconds, then the date and time and a message is appended to the text file `networkstatuslog.txt`  
 It's as simple as that!  
 The `NetworkStatusLogger.service` is a systemctl service for use with systemd on a raspberry pi which always runs the shell script in the background.
