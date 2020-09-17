@@ -16,6 +16,7 @@ If you also would like a webpage to display the network log, alternatively run t
 Again, this will fail if not run with sudo.   
 Once rebooted the script will be running in the background and the webpage will be avaliable at the IP address of your Pi.   
 If you don't know the IP it can be found using the command `hostname -I`    
+The clear logs option on the webpage will only work if the log file is in the default location (`/home/pi/networkstatuslog.txt`)    
 #### Other
 Change the `networkstatuslog.txt` save location on line two of `NetworkStatusLogger.sh`  
 Then `NetworkStatusLogger.sh` script can simply be run:  
